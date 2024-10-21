@@ -1,0 +1,3 @@
+USE comet;
+SELECT DISTINCT score FROM student;
+

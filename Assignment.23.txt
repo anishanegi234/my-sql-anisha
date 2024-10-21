@@ -1,0 +1,12 @@
+Use comet;
+SELECT * FROM student;
+
+
+Student_ID	Name	Age	country
+101	Alicia	20	            India
+102	Bob	         21	            India
+103	Charlie     23	            India
+105	Ethan	23	            India
+106	Fiona	24	            India
+107	George	25	            India
+

@@ -1,0 +1,10 @@
+two methods for this
+
+{ USE comet;
+
+DELETE FROM student;   }
+
+{ USE comet;
+
+TRUNCATE TABLE student;  }
+

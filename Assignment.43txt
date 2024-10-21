@@ -1,0 +1,46 @@
+Count()
+Avg()
+Min()
+Max()	Sum()
+First()
+Last()
+Ucase()	Lcase()
+Mid()
+Round()
+
+
+USE comet;
+
+-- Count total employees
+SELECT COUNT(*) AS TotalEmployees FROM Emp;
+
+-- Calculate average salary
+SELECT AVG(salary) AS AverageSalary FROM Emp;
+
+-- Find minimum salary
+SELECT MIN(salary) AS MinimumSalary FROM Emp;
+
+-- Find maximum salary
+SELECT MAX(salary) AS MaximumSalary FROM Emp;
+
+-- Calculate total salary
+SELECT SUM(salary) AS TotalSalary FROM Emp;
+
+-- Get first employee name
+SELECT name FROM Emp ORDER BY Eid LIMIT 1;
+
+-- Get last employee name
+SELECT name FROM Emp ORDER BY Eid DESC LIMIT 1;
+
+-- Convert names to uppercase
+SELECT UCASE(name) AS UpperCaseNames FROM Emp;
+
+-- Convert names to lowercase
+SELECT LCASE(name) AS LowerCaseNames FROM Emp;
+
+-- Extract substring of names
+SELECT MID(name, 1, 3) AS Substring FROM Emp;
+
+-- Round average salary
+SELECT ROUND(AVG(salary)) AS RoundedAverageSalary FROM Emp;
+

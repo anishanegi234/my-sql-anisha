@@ -1,0 +1,3 @@
+USE comet;
+ALTER TABLE student
+DROP COLUMN Phone;

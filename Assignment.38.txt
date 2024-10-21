@@ -1,0 +1,5 @@
+USE comet ;
+
+SELECT * FROM Emp
+WHERE name LIKE 'A%';
+

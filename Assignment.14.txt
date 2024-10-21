@@ -1,0 +1,2 @@
+1.mysql -u your_username -p
+2.USE comet;

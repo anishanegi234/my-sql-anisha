@@ -1,0 +1,5 @@
+  CREATE TABLE student (
+    Student_ID INT PRIMARY KEY,
+    Name VARCHAR(100),
+    Age INT
+);

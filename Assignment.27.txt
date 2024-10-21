@@ -1,0 +1,5 @@
+SELECT * FROM student
+WHERE Age > 20 
+  AND Age < 25 
+  AND Student_ID = 103;
+

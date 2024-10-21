@@ -1,0 +1,3 @@
+SELECT * FROM student
+WHERE Name LIKE 'A__%';  -- One character after 'A' and at least two more characters after that
+

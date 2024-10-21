@@ -1,0 +1,4 @@
+USE comet;
+
+DROP TABLE student_info;
+

@@ -1,0 +1,4 @@
+SELECT * FROM Emp
+WHERE salary > 60000
+  AND (Age > 25 OR Eid = 101);
+

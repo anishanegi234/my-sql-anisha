@@ -1,0 +1,3 @@
+UPDATE student
+SET Name = 'Alicia'
+WHERE Student_ID = 101;

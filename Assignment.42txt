@@ -1,0 +1,4 @@
+USE comet;
+
+SELECT * FROM Emp
+WHERE name NOT LIKE '%e%';

@@ -1,0 +1,4 @@
+USE comet;
+
+DELETE FROM student
+WHERE Student_ID = 104;

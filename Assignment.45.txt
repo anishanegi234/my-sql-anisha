@@ -1,0 +1,28 @@
+USE comet;  -- Switch to the comet database
+
+CREATE SEQUENCE student_id_seq
+START WITH 1  -- Starting value of the sequence
+INCREMENT BY 1;  -- Increment value for each subsequent number
+
+2.point
+CREATE TABLE IF NOT EXISTS student (
+    student_id INT,  -- Define the student_id column (we'll fill this with the sequence)
+    name VARCHAR(50) NOT NULL,
+    age INT,
+    country VARCHAR(50) DEFAULT 'India'
+);
+
+
+3.point
+INSERT INTO student (student_id, name, age, country) 
+VALUES (NEXT VALUE FOR student_id_seq, 'John Doe', 20, 'India');
+
+INSERT INTO student (student_id, name, age, country) 
+VALUES (NEXT VALUE FOR student_id_seq, 'Jane Smith', 22, 'India');
+
+INSERT INTO student (student_id, name, age, country) 
+VALUES (NEXT VALUE FOR student_id_seq, 'Alice Johnson', 19, 'India');
+
+
+4.
+SELECT * FROM student;

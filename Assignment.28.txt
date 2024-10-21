@@ -1,0 +1,5 @@
+SELECT * FROM student
+WHERE Age BETWEEN 20 AND 25
+  AND Name LIKE 'A%'
+  AND Student_ID IN (101, 102);
+

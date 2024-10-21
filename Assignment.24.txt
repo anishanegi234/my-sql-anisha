@@ -1,0 +1,15 @@
+- Step 1: Start a transaction
+START TRANSACTION;
+
+-- Step 2: Create a savepoint
+SAVEPOINT my_savepoint;
+
+-- Step 3: Execute some SQL commands
+INSERT INTO student (Student_ID, Name, Age, country) VALUES (108, 'Hannah', 26, 'India');
+
+-- (Optional) Step 4: Rollback to the savepoint if needed
+-- ROLLBACK TO my_savepoint;
+
+-- Step 5: Commit the transaction
+COMMIT;
+

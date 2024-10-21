@@ -1,0 +1,7 @@
+two ways
+(A). USE comet;
+DESCRIBE student;
+
+(B).USE comet;
+ SHOW column from student;
+

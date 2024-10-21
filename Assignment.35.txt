@@ -1,0 +1,2 @@
+SELECT * FROM student
+WHERE Student_ID IN (101, 102, 105);

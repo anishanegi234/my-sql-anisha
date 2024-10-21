@@ -1,0 +1,3 @@
+SELECT * FROM student
+WHERE Student_ID NOT IN (101, 102, 105);
+
